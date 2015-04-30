@@ -10,19 +10,19 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get about" do
     get :about
     assert_response :success
-    assert_select "title", "About | MarienCo -- More Digital."
+    assert_select "title", "About | MarienCo -- Mobile. Dynamic. Future."
   end
 
   test "should get blog" do
     get :blog
     assert_response :success
-    assert_select "title", "Blog | MarienCo -- Transistioning Hope."
+    assert_select "title", "Blog | MarienCo -- Mobile. Dynamic. Future."
   end
 
   test "should get services" do
     get :services
     assert_response :success
-    assert_select "title", "Services | MarienCo -- Rifting the Trip"
+    assert_select "title", "Services | MarienCo -- Mobile. Dynamic. Future."
   end
 
 end
