@@ -1,0 +1,25 @@
+  <div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+    <div id="menu">
+        <div class="pure-menu">
+          <!--<%=link_to "marienco app", '#', id: "logo" %>-->
+          <nav>
+            <ul class="pure-menu-list">
+              <li class="pure-menu-item"><%= link_to "Home",   '/', class: "pure-menu-link" %></li>
+              <li class="pure-menu-item"><%= link_to "About",   'about', class: "pure-menu-link" %></li>
+              <li class="pure-menu-item"><%= link_to "Blog",   'blog', class: "pure-menu-link" %></li>
+
+              <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
+                    <%= link_to "Services",   'services', class: "pure-menu-link" %>
+              </li>
+
+              <li class="pure-menu-item"><%= link_to "Contact",   'contact', class: "pure-menu-link" %></li>
+            </ul>
+          </nav>
+            <%=link_to "Marien.Co", '#', class: "pure-menu-heading" %>
+        </div>
+    </div>
